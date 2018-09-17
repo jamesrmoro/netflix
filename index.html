@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exemplo Netflix</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="slider">
+                <h3>Séries americanas de investigação criminal</h3>
+
+                <span onmouseover="scrollLeft()" onmouseout="clearScroll()" class="handle handlePrev active">
+                    <i class="icon icon-left" aria-hidden="true"></i>
+                </span>
+
+                <div id="scroller" class="line">
+                    <div class="wrapper">
+                        <div class="item">
+                            <div class="item__media">
+                                <img class="item__img" src="images/001.jpg">
+                            </div>
+                            <div class="item__details">
+                                <h2 class="item__title">Gotham</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item__media">
+                                <img class="item__img" src="images/002.jpg">
+                            </div>
+                            <div class="item__details">
+                                <h2 class="item__title">Elementary</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item__media">
+                                <img class="item__img" src="images/003.jpg">
+                            </div>
+                            <div class="item__details">
+                                <h2 class="item__title">Brooklyn Nine-Nine</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item__media">
+                                <img class="item__img" src="images/004.jpg">
+                            </div>
+                            <div class="item__details">
+                                <h2 class="item__title">The Divide</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item__media">
+                                <img class="item__img" src="images/005.jpg">
+                            </div>
+                            <div class="item__details">
+                                <h2 class="item__title">Twin Peaks</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item__media">
+                                <img class="item__img" src="images/006.jpg">
+                            </div>
+                            <div class="item__details">
+                                <h2 class="item__title">Narcoguerra</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item__media">
+                                <img class="item__img" src="images/007.jpg">
+                            </div>
+                            <div class="item__details">
+                                <h2 class="item__title">The Starcaise</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item__media">
+                                <img class="item__img" src="images/008.jpg">
+                            </div>
+                            <div class="item__details">
+                                <h2 class="item__title">The Keepers</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <span onmouseover="scrollRight()" onmouseout="clearScroll()"  class="handle handleNext active">
+                    <i class="icon icon-right" aria-hidden="true"></i>
+                </span>
+
+            </div>
+        </div>
+    </body>
+</html>
