@@ -1,6 +1,6 @@
 var intervalo;
 
-function scrollRight() {
+function scroll_Right() {
 
 	intervalo = setInterval(function() {
 
@@ -9,7 +9,7 @@ function scrollRight() {
 	);
 };
 
-function scrollLeft() {
+function scroll_Left() {
 
 	intervalo = setInterval(function() {
 
@@ -19,7 +19,7 @@ function scrollLeft() {
 
 };
 
-function clearScroll() {
+function clear_Scroll() {
 
 	clearInterval(intervalo);
 
